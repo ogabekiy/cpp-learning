@@ -4,10 +4,29 @@ using namespace std;
 
 
 int main(){
+    //1
+    int a=2,b=123;
+    int nechta=0;
+    for(int i=a;i<=b;i++){
+        if(i%10==0){
+            nechta++;
+        }
+    }
+    cout << nechta << endl;
 
-        int a,b;
-        
+    //2
+    for(int i =a;i<=b;i++){
+        if(i%7==0 || i%8==0){
+            cout << i << endl;
+        }
+    }
 
+    //3
+    int sum = 0;
+    for(int i=0;i<100;i+=2){
+        sum += i;
+    }
+    cout << sum << endl;
 
 
 
